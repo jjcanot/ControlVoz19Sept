@@ -29,7 +29,7 @@ client1.on_message = on_message
 
 
 st.title("Smart House")
-st.subheader("CONTROL POR VOZ")
+st.subheader("Control por voz")
 
 image = Image.open('fotocasa.png')
 
@@ -38,9 +38,9 @@ st.image(image, width=500)
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("Toca el Botón e indica la acción ")
 
-stt_button = Button(label=" Inicio ", width=200)
+stt_button = Button(label=" HABLA ", width=300)
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
