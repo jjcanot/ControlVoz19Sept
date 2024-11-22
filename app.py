@@ -33,7 +33,7 @@ st.subheader("Control por voz")
 
 image = Image.open('fotocasa.png')
 
-st.image(image, width=500)
+st.image(image, width=300)
 
 
 
