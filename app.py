@@ -29,12 +29,11 @@ client1.on_message = on_message
 
 
 st.title("Smart House")
-image = Image.open('fotocasa.png')
 st.subheader("CONTROL POR VOZ")
 
 image = Image.open('fotocasa.png')
 
-st.image(image, width=200)
+st.image(image, width=500)
 
 
 
